@@ -1,0 +1,85 @@
+@font-face {
+    font-family: labelFont;
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: boldFont;
+    src: url(./assets/fonts/Poppins-ExtraBold.ttf);
+}
+:root {
+
+
+--Purple: hsl(259, 100%, 65%);
+--Light-red: hsl(0, 100%, 67%);
+--White: hsl(0, 0%, 100%);
+--Off-white: hsl(0, 0%, 94%);
+--Light-grey: hsl(0, 0%, 86%);
+--Smokey-grey: hsl(0, 1%, 44%);
+--Of-black: hsl(0, 0%, 8%);
+}
+body, html,  #app{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 223, 223);
+}
+.mainContainer {
+    background-color: white;
+    width: 60%;
+    height: 70%;
+    border-radius: 20px;
+    border-bottom-right-radius: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+.informationContainer {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    font-family: labelFont;
+    gap: 30px;
+}
+.inputFields {
+    width: 80%;
+    display: flex;
+    gap: 100px;
+    margin-top: 80px;
+}
+
+.inputfield {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.inputfield label {
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: gray;
+}
+
+.inputfield input {
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-family: boldFont;
+    font-size: 1.4em;
+}
+.inputfield input:focus {
+    border: 1px solid var(--Purple);
+}
+.buttonContainer {
+    width: 100%;
+    height: 30%;
+    background-color: red;
+}
