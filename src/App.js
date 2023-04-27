@@ -23,7 +23,8 @@ const App = () => {
                 
                 </div>
                 <div className="buttonContainer">
-
+                   <hr className="lineBreak"/>
+                   <img className="submitImage" src={'/assets/images/icon-arrow.svg'}/>
                 </div>
             </div>
       
