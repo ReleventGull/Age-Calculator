@@ -27,6 +27,11 @@ const App = () => {
                    <img className="submitImage" src={'/assets/images/icon-arrow.svg'}/>
                 </div>
             </div>
+            <div className="resultContainer">
+                <span><span className="resultData">--</span> years</span>
+                <span><span className="resultData">--</span> months</span>
+                <span><span className="resultData">--</span> days</span>
+            </div>
       
         </div>
     )

@@ -6,6 +6,10 @@
     font-family: boldFont;
     src: url(./assets/fonts/Poppins-ExtraBold.ttf);
 }
+@font-face {
+    font-family: boldItalic;
+    src: url(./assets/fonts/Poppins-BoldItalic.ttf);
+}
 :root {
 
 
@@ -35,7 +39,8 @@ body, html,  #app{
     border-radius: 20px;
     border-bottom-right-radius: 300px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     
 }
 .informationContainer {
@@ -62,7 +67,7 @@ body, html,  #app{
 .inputfield label {
     font-size: 1em;
     letter-spacing: 2px;
-    color: gray;
+    color: var(--Smokey-grey);
 }
 
 .inputfield input {
@@ -102,4 +107,15 @@ body, html,  #app{
     background-color: black;
     transition: .2s;
     cursor: pointer;
+}
+.resultContainer {
+    width: 90%;
+    height: 50%;
+    font-family: boldItalic;
+    display: flex;
+    flex-direction: column;
+    font-size: 7rem;
+}
+.resultData {
+    color: var(--Purple)
 }
