@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "name": "age-calculator",
+  "description": "![Design preview for the Age calculator app coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReleventGull/Age-Calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReleventGull/Age-Calculator/issues"
+  },
+  "homepage": "https://github.com/ReleventGull/Age-Calculator#readme"
+}
