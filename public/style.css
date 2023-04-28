@@ -94,6 +94,9 @@ body, html,  #app{
     width: 90%;
     display: inline-block;
     margin: 0;
+    height: 3px;
+    background-color: var(--Light-grey);
+    border: none
 }
 .submitImage {
     background-color: var(--Purple);
